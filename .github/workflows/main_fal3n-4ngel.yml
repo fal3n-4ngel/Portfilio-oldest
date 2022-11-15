@@ -54,7 +54,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'adiportfolio'
+          app-name: 'fal3n-4ngel'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_54E0E147F3C44E6DA73161A8AEBDAAD3 }}
           package: .
