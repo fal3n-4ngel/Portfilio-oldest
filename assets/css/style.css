@@ -1,4 +1,3 @@
-
 body {
   background: #ffffff;
   color: #232a38;
@@ -13,7 +12,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -68,7 +72,8 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -179,7 +184,6 @@ p {
   background-color: #b8a07e;
 }
 
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -191,7 +195,8 @@ p {
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
 }
-#header.header-scrolled, #header.header-inner-pages {
+#header.header-scrolled,
+#header.header-inner-pages {
   top: 0;
 }
 #header .logo {
@@ -235,7 +240,8 @@ p {
 .navbar li {
   position: relative;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -247,12 +253,16 @@ p {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #31387d;
 }
 .navbar .dropdown ul {
@@ -279,7 +289,9 @@ p {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #7e8eb8;
 }
 .navbar .dropdown:hover > ul {
@@ -359,15 +371,19 @@ p {
   overflow-y: auto;
   transition: 0.3s;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #4b4a4a;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #7e8bb8;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -390,7 +406,9 @@ p {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #7e8bb8;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -401,8 +419,8 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
-  height:60vh;
+  background: url("../img/home-bg1.jpg") repeat scroll center center/cover;
+  height: 60vh;
   width: 100%;
 }
 
@@ -475,7 +493,6 @@ p {
   text-align: left;
 }
 
-
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -530,7 +547,6 @@ p {
   border: 2px solid #1f5297;
 }
 
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -558,7 +574,8 @@ p {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 .portfolio #portfolio-flters li:last-child {
@@ -622,7 +639,8 @@ p {
 /*--------------------------------------------------------------
 # Journal
 --------------------------------------------------------------*/
-#journal, #journal-blog {
+#journal,
+#journal-blog {
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -693,7 +711,8 @@ p {
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
   margin-bottom: 5px;
 }
